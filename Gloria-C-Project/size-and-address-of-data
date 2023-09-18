@@ -9,6 +9,7 @@ int main(void)
     printf("the size of my double is : %zu\n", sizeof(double));
     printf("the address of my a is : %p\n", sizeof(a));
     printf("the size of my a is : %lu\n", sizeof(a));
+    printf("the size of my pointer (*ptrr) is : %lu\n", sizeof(ptrr));
     printf("the size of my float is : %zu\n", sizeof(float));
     
     return (0);
