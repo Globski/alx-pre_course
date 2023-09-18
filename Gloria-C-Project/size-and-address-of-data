@@ -1,0 +1,15 @@
+//get determine the size of data types, using the sizeof operator.
+#include <stdio.h>
+int main(void) 
+{
+    int a;
+    
+    printf("the size of my char is : %zu\n", sizeof(char));
+    printf("the size of my int is : %zu\n", sizeof(int));
+    printf("the size of my double is : %zu\n", sizeof(double));
+    printf("the address of my a is : %p\n", sizeof(a));
+    printf("the size of my a is : %lu\n", sizeof(a));
+    printf("the size of my float is : %zu\n", sizeof(float));
+    
+    return (0);
+}
